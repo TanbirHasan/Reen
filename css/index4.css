@@ -1,0 +1,563 @@
+
+
+
+@import "all.min.css";
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+
+/*start of the header section*/
+.header-section{
+    width: 100%;
+}
+.top-header{
+    width: 100%;
+    padding: 10px 0px;
+    background:#f5f7fa ;
+}
+
+.top-header .info-inner{
+    display: block;
+    margin: 0px;
+}
+
+.top-header .info-inner li{
+    list-style: none;
+    display: inline-block;
+}
+
+.top-header .info-inner li a{
+    font-size: 14px;
+    font-weight: 500;
+    color: #506a85;
+    margin-right: 15px;
+}
+
+.top-header .info-inner li a i{
+    margin-right: 8px;
+}
+
+
+
+
+
+
+.top-header .social-icon{
+    display: block;
+    text-align: right;
+    margin: 0px;
+}
+
+.top-header .social-icon li{
+    list-style: none;
+    display: inline-block;
+}
+
+
+.top-header .social-icon li a{
+    font-size: 15px;
+    color: #506a85;
+    margin: 0px 0px 0px 14px;
+}
+
+.top-header .social-icon li a i{
+
+}
+
+
+ .navbar-light{
+    background: #fff !important;
+    padding: 15px 0px;
+}
+
+ .navbar-expand-lg .navbar-nav{
+
+    margin-left: 15px;
+}
+
+
+
+
+.navbar-expand-lg .navbar-nav{
+    margin-left: 25px;
+}
+
+ .navbar-light .navbar-nav .nav-link {
+    color: #506a85;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0px 10px;
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #506a85;
+    font-weight: 400;
+}
+
+.header-section .right-search .fa{
+    color:  #506a85;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #08c;
+}
+
+
+
+/*end of the header section*/
+
+
+/*start of banner section*/
+
+.slider{
+    width: 100%;
+}
+
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 30%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+
+.carousel-caption  h2{
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 74px;
+}
+.carousel-caption  p{
+    color: #798b9d;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+
+
+.carousel-caption  .btn-info{
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 10px 35px;
+    border-radius: 3px;
+    border: 1px solid #00bc9c;
+    background:#00bc9c ;
+    font-weight: 600;
+    margin-top: 35px;
+    transition: 1s;
+}
+
+
+.carousel-caption  .btn-info:focus, .carousel-caption  .btn-info:hover{
+    background:transparent ;
+    color: #00bc9c;
+    border: 1px solid #00bc9c;
+}
+/*end of banner section*/
+
+
+/*who we are style*/
+
+
+.who-we-are{
+    width: 100%;
+    padding: 80px 0px;
+
+}
+
+.who-we-are .title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.who-we-are .title h2{
+    font-size: 44px;
+    font-weight: 700;
+    color: #506a85;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    line-height: 74px;
+    margin-bottom: 20px;
+}
+
+.who-we-are .title p{
+    color: #798b9d;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.who-we-are .media{
+    margin-top: 40px;
+}
+
+.who-we-are .media .media-body{
+    padding: 0px 18px;
+}
+
+.who-we-are .media .media-body h5{
+    color: #506a85;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+
+}.who-we-are .media .media-body p{
+     color: #798b9d;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 24px;
+
+ }
+/*end of who we are*/
+
+ /*start of work section*/
+
+.works{
+    width: 100%;
+    padding: 40px 0px;
+    background: #f2f5f7;
+}
+
+
+
+
+.works .title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.works .col-md-6{
+   padding-bottom: 40px;
+}
+
+
+
+
+.works h2{
+    font-size: 44px;
+    font-weight: 700;
+    color: #506a85;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    line-height: 74px;
+    margin-bottom: 20px;
+}
+
+.works  p{
+    color: #798b9d;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    line-height: 26px;
+}
+
+.works .row:nth-of-type(2){
+    text-align: center;
+}
+
+/*end of work section*/
+
+/*START OF GET IN SECTION   */
+
+.get-in{
+    width: 100%;
+    padding: 60px 0px;
+}
+
+
+.get-in .getin-text{
+    text-align: center;
+}
+.get-in .getin-text h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: #7b8ca0;
+    padding-bottom: 10px;
+}
+.get-in .getin-text p{
+    font-size: 16px;
+    color: #708CA7;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.get-in .getin-text .btn-info{
+    font-size: 16px;
+}
+/*get in section end*/
+
+
+/*start of footer section*/
+
+
+
+.footer-section{
+    width: 100%;
+}
+
+.top-widget-footer{
+    width: 100%;
+    padding: 90px 0px 30px 60px;
+    background: #252c3a;
+}
+
+
+.top-widget-footer .inner-widget{
+    width: 100%;
+    padding-left: 30px;
+}
+
+.top-widget-footer .inner-widget img{
+    margin-bottom: 20px;
+    color: white;
+}
+
+.top-widget-footer .inner-widget p{
+    margin-bottom: 30px;
+    color: #8c9aa8;
+    line-height: 17px;
+    font-size: 12px;
+}
+
+
+.top-widget-footer .inner-widget h4{
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+
+.top-widget-footer .inner-widget .list-group-item{
+    padding: 10px 0px;
+    background: transparent;
+    border: 0px;
+    position: relative;
+    color: #969595;;
+    font-size: 14px;
+
+}
+.top-widget-footer .inner-widget .list-group-item span{
+    color: #464950;
+    font-size: 12px;
+}
+
+.top-widget-footer .row .col-sm:nth-of-type(3) p{
+    margin-bottom: 10px;
+}
+
+
+
+
+.top-widget-footer .inner-widget{
+    margin-left: -50px;
+}
+
+.top-widget-footer .inner-widget .form{
+    width: 100%;
+}
+
+.top-widget-footer .inner-widget .form .form-control {
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.top-widget-footer .inner-widget .form .btn-primary {
+    position: absolute;
+    bottom: 39%;
+    right: 24%;
+    padding: 6px 12px;
+    border-radius: 3px;
+    border: 0px solid #00bc9c;
+    font-size: 12px;
+    background: #00bc9c;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+::placeholder{
+    font-weight: 500;
+}
+/*end  of footer section */
+
+/*start of the last part */
+
+.footer-last{
+    width: 100%;
+    padding: 18px;
+    background:#1d232e;
+}
+
+.footer-last .footer-copyright{
+    width: 100%;
+}
+
+
+.footer-last .footer-copyright p{
+    font-weight: 500;
+    font-size: 15px;
+    color: #707e8c;
+}
+
+
+
+.footer-last .footer-privacy{
+    width: 100%;
+}
+
+
+.footer-last .footer-privacy ul{
+    width: 100%;
+    text-align: right;
+}
+
+
+
+.footer-last .footer-privacy ul li{
+    width: 100%;
+    list-style: none;
+}
+
+.footer-last .footer-privacy ul li a{
+    display: inline-block;
+    padding-left: 10px;
+    text-decoration: none;
+    color: #707e8c;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/*end of the lastest footer section*/
+
+/*start of number of counter js plugin section*/
+.countsection{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+.countsection span{
+    font-size: 20px;
+    padding: 50px;
+    border: 2px solid #117a8b;
+}
+
+/*end of number counter section */
+
+
+/*this is the css for stickup menu js plugin*/
+.navbar-wrapper{
+    width: 100%;
+    position: relative;
+    background: rgba(0,0,0,.5);
+    z-index: 15;
+}
+.navbar{
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.isStuck{
+    left:0px;
+    width:100%;
+    background: rgba(255,255,255,.5) !important;
+}
+
+/*css end for stickup menu*/
+
+/*start of jss plugin progress bar*/
+.progressbar {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+
+.proggress{
+    height: 8px;
+    text-align: center;
+    width: 10px;
+    background-color: #3498db;
+}
+
+.percentCount{
+    margin-top: 10px;
+    clear: both;
+    font-weight: bold;
+    font-family: Arial
+}
+
+/*progressbaro css end*/
+
+/*parrticle js plugin section*/
+#particles-js{
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #b61924;
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+#particles-js h1{
+
+}
+
+#particles-js .bg-danger{
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 10px 35px;
+    border-radius: 3px;
+    border: 1px solid #00bc9c;
+    background-color:#00bc9c ;
+    font-weight: 600;
+    margin-top: 35px;
+    transition: 1s;
+}
+
+
+
+/*particle end*/
+
+
+/*Responsive design*/
+
+
+
